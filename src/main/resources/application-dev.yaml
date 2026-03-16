@@ -6,12 +6,4 @@ eureka:
     service-url:
       defaultZone: http://eureka-0.eureka-service.default.svc.cluster.local:8761/eureka
 
-spring:
-  data:
-    mongodb:
-      uri: mongodb+srv://admin:8446418192@atlas-cluster.ukqi7qg.mongodb.net/?retryWrites=true&w=majority # mongodb://localhost:27017/orderdb
-      host: atlas-cluster.ukqi7qg.mongodb.net
-      port: 27017
-      database: order_db
-      repositories:
-        enabled: true
+
