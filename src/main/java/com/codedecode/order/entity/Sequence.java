@@ -14,5 +14,7 @@ public class Sequence {
 
     @Id
     private String id;
+
+    @SuppressWarnings("squid:S1700")
     private long sequence;
 }
