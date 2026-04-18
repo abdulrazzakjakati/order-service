@@ -5,7 +5,7 @@ pipeline {
         // ─── Dynamic Configuration ───────────────────────────────
         DOCKERHUB_USERNAME =  'abdulrazzakjakati'
         APP_NAME = 'food-delivery-order-service'
-        GITOPS_REPO_URL = 'git@github.com:abdulrazzakjakati/deployment-folder.git'
+        GITOPS_REPO_URL = 'git@github.com:abdulrazzakjakati/deployment.git'
         GITOPS_BRANCH = 'master'
 
         MANIFEST_PATH = 'helm/restaurant-microservices-project/order-service/values.yaml'
