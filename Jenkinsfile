@@ -10,7 +10,7 @@ pipeline {
 
         MANIFEST_PATH = 'helm/restaurant-microservices-project/order-service/values.yaml'
         SONAR_PROJECT_KEY = 'com.codeddecode:order'
-        SONAR_URL = 'http://140.245.14.252:9000/'
+        SONAR_URL = 'http://140.245.14.252:9000'
         COVERAGE_THRESHOLD = '50.0'
         // ─────────────────────────────────────────────────────────
 
