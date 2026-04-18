@@ -17,7 +17,7 @@ pipeline {
         DOCKERHUB_CREDENTIALS = credentials('DOCKER_HUB_CREDENTIAL')
         SONAR_TOKEN = credentials('sonar-token')
         VERSION = "${env.BUILD_ID}"
-        DOCKER_IMAGE = "${DOCKERHUB_USERNAME}/${APP_NAME}"
+        DOCKER_IMAGE          = "${DOCKERHUB_USERNAME}/${APP_NAME}:${VERSION}"
     }
 
     tools {
