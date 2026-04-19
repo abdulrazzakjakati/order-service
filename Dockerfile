@@ -28,6 +28,6 @@ EXPOSE 9093
 
 # Healthcheck (Note: Alpine needs 'wget' or 'curl' installed to work)
 HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 \
-  CMD wget --quiet --tries=1 --spider http://localhost:9094/actuator/health || exit 1
+  CMD wget --quiet --tries=1 --spider http://localhost:9093/actuator/health || exit 1
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
